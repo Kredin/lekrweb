@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 header {
   text-align: center;
   color: #ff69b4;
@@ -6,11 +10,27 @@ header {
 }
 
 header h1 {
+  margin-top: 0;
+  padding-top: 30px;
+  font-size: 60px;
+}
+
+header h2 {
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 40px;
 }
 
 #golem {
+  padding: 10px;
   display: flex;
   justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+
+#golem h1 {
+  font-size: 80px;
 }
 
 img {
