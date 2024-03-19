@@ -1,4 +1,19 @@
 header {
   text-align: center;
   color: #ff69b4;
+  background-color: black;
+  margin: 0;
+}
+
+header h1 {
+}
+
+#golem {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  height: 300px;
+  width: 300px;
 }
